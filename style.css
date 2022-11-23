@@ -1,0 +1,278 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border-bottom: 4px solid aquamarine;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title {
+    margin-right: 7%;
+}
+
+.name {
+    width: 100%;
+    color: white;
+    padding: 1%;
+}
+
+.name:hover {
+    color: aquamarine;
+}
+
+.navbar-flex {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-flex-item {
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+.navbar-flex-item:hover {
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.workout-img-div {
+    position: relative;
+}
+
+.gym-img {
+    z-index: -1;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 4px solid aquamarine;
+}
+
+.img-text {
+    z-index: 1;
+    position: absolute;
+    color: aquamarine;
+    text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px ;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.billboard-section {
+    margin: 7vw;
+}
+
+.workout-grid {
+    display: grid;
+    grid-template-columns: 50% 43.7%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.workout-grid-text {
+    color: White;
+}
+
+.workout-item-text {
+
+}
+
+.workout-img {
+    width: 29vw;
+    border: 4px solid aquamarine;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.workout-grid-item-text {
+    text-align: center;
+    color: white;
+    border: 4px solid aquamarine;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.founder-section {
+    display: flex;
+    border: 4px solid aquamarine;
+    border-radius: 10px;
+    width: 60vw;
+    margin: auto;
+    color: white;
+    background: gray;
+}
+
+.founder-img {
+    width: 20vw;
+    border-radius: 10px;
+    margin-right: 5vw;
+}
+
+.hour-container {
+    text-align: center;
+    color: white;
+    padding: 3vw;
+    border: 4px solid aquamarine;
+    border-radius: 10px;
+    display: block;
+    width: 35vw;
+    margin: auto;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    color: white;
+    border: 4px solid aquamarine;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+}
+
+.foot-flex {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 4vw;
+}
+
+.location-img {
+    width: 25vw;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.foot-info {
+    display: grid;
+    grid-template-rows: 7vh 7vh 7vh 7vh;
+}
+
+.socials {
+    display: grid;
+    grid-template-rows: 7vh 7vh 7vh 6vh;
+}
+
+.about{
+    color: white;
+    border: 4px solid aquamarine;
+    border-radius: 10px;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10vw;
+    background: gray;
+    display: block;
+    height: 30vw;
+    text-align: center;
+}
+
+.login {
+    border: 4px solid aquamarine;
+    display: block;
+    width: 50vw;
+    height: 40vh;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: 24vw;
+    color: white;
+    padding: 1.5vw;
+    background: rgb(78, 78, 78);
+    border-radius: 10px;
+}
+
+input {
+    width: 35vw;
+    height: 2vw;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+}
+
+.forgot {
+    margin-left: 3vw;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.forgot:hover {
+    color: aquamarine;
+}
+
+.help {
+    margin-top: 20vw;
+    color: white;
+}
+
+.help:hover {
+    color: aquamarine;
+}
+
+.bottom-buttons{
+    width: 50vw;
+    margin-top: 4vw;
+}
+
+.button-div {
+    margin-bottom: 2vw;
+}
+
+button {
+    background: aquamarine;
+    border-radius: 10px;
+    height: 3vh;
+    width: 5vw;
+    border: 2px solid aquamarine;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.signout {
+    border: 4px solid aquamarine;
+    display: block;
+    width: 30vw;
+    text-align: center;
+    height: 35vh;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    color: white;
+    border-radius: 10px;
+    background: rgb(85, 85, 85);
+}
+
+.signout-title {
+    margin-bottom: 5vh;
+}
+
+.yes-button {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
